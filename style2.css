@@ -32,7 +32,7 @@
     font-size: 1rem;
     text-decoration: none;
     color: white;
-    padding-right: 6rem;
+    padding-right: 4rem;
     transition: 0.2s ease;
 }
 
@@ -97,6 +97,7 @@ hr{
 
 .contenedoriz{
     width: 65%;
+    margin-left: 85px;
 }
 
 .contenedoriz h3 {
@@ -106,6 +107,7 @@ hr{
 .contenedorde {
     width: 390px;
     height: 220px;
+    margin-right: 110px;
     background-color: rgb(80, 75, 75);
 }
 
