@@ -7,13 +7,17 @@
 
 
 .encabezado{
-    background-color: rgb(6, 6, 59);
+    background-color: #24282b;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-right: 0 4rem;    
     height: 75px;
     
+}
+
+.titulo {
+    margin-left: 4.5rem;
 }
 
 .titulo h1{
@@ -27,12 +31,16 @@
     color: #1e90ff;
 }
 
+.menu {
+    margin-right: 4.5rem;
+}
+
 .menu nav a {
     
     font-size: 1rem;
     text-decoration: none;
     color: white;
-    padding-right: 6rem;
+    padding-right: 2rem;
     transition: 0.2s ease;
 }
 
@@ -42,17 +50,32 @@
 
 .active {
     font-weight: bold ;
-    transform: scale(2) ;
+    transform: scale(1.2) ;
 }
 
 hr{
     border: none;
     height: 0.6rem;
-    background-color: rgb(57, 73, 216);
+    background-color: #1293d4;
 }
 
+
+.titulo2 h1{
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.texto {
+    max-width: 700px;
+    color: white;
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+
+
 .cuadro {
-    background-color: rgb(46, 41, 41);
+    background-color: #24282b;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -60,10 +83,17 @@ hr{
     
 }
 
+
 .titulo3{
     color: white;
     font-size: 1.3rem;
+    padding-left: 4rem;
 }
+
+.enviar {
+    padding-right: 4rem;
+}
+
 
 .enviar input {
     padding: 10px;
@@ -138,7 +168,7 @@ hr{
 
 footer {
     margin-top: 100px;
-    background-color: rgb(6, 116, 201);
+    background-color: #1293d4;
     color: white;
     text-align: center;
     padding: 15px;
